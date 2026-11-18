@@ -1,0 +1,180 @@
+(footprint "QR CODE 4x4mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3464 0.059082 180)
+		(unlocked yes)
+		(layer "User.17")
+		(uuid "7baf4632-10ff-40a7-b5eb-cd904e29852d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "QR CODE 4x4mm"
+		(at 7.890328 3.622802 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3bd2ebd9-3371-4210-a7d6-b469d2472810")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a3f86ea7-4e7c-41d5-95e9-0ee583b2f6ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "9d251ff5-1b29-4f34-8569-b2aa0e9f7f7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(sheetname "TOP")
+	(sheetfile "TOP.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2 2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "2ec3b626-0cc8-42bf-b315-84f60a50c7e7")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "7ba00077-fd6f-4774-9795-4f89c7db384f")
+	)
+	(fp_line
+		(start 2 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "62b391f2-7d4c-4de6-83dc-e6e0f0cf73a5")
+	)
+	(fp_line
+		(start 1 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "12846049-37ab-4617-b87f-613b2c6d0532")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "201395ad-254b-4925-9021-a1a173be2424")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "0ac83c0f-0869-4698-ba45-2823a7ca4079")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "9a422e9a-09b8-425b-8dec-1c0e427a352c")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.34")
+		(uuid "8f368d0f-0621-4e11-9aed-eff773c28605")
+	)
+	(pad "PAD" smd rect
+		(at 0 0 90)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -2147.48364)
+		(uuid "b911abb8-b931-42de-9f61-25b7a6843e2d")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "aae5d5fe-870c-4bbd-95b1-f8d1555bf949")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 105.951095 130.373605) (xy 101.951105 130.373605) (xy 101.951105 126.373605) (xy 105.951095 126.373605)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
